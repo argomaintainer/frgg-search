@@ -1,0 +1,4 @@
+0 4,11,15,18,21,22,23 * * * /home/freestyler/frgg/bin/fetch_brd_article_list
+1 4,11,15,18,21,22,23 * * * /home/freestyler/frgg/bin/diff_files.py
+2 4,11,15,18,21,22,23 * * * /home/freestyler/frgg/bin/get_files diff
+30 4,11,15,18,21,22,23 * * * /home/freestyler/frgg/bin/gen_index.py

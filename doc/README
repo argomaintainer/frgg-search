@@ -1,0 +1,39 @@
+* 介绍
+
+https://docs.google.com/open?id=0B6QDiiIpdstTMTc1ZWQ0NmItYTY4MC00NTQzLWFhOWQtMmM0ZGMzZDNlOTFl
+
+* 目录结构
+       bin/ 可执行文件
+       	    buildindex	    建立版面索引
+	    fetch_filelist  抓取文章列表
+            diff_files.py   产生文章列表之间的差异
+            get_files	    抓取文章并提取文章正文
+       etc/ 词典等配置文件
+       	    ../etc/ch_word	词典
+	    ../etc/ch_char_freq	单字 频率
+	    ../etc/boards.txt   版面列表
+       index/ 存放索引文件
+       	      ($boardname).brdidx  版面索引文件
+	      ($boardname).brd.docid2path 版面文档号-文档路径
+	      ($boardname).annidx  精华区索引文件
+	      ($boardname).ann.docid2path 精华区文档号-文档路径
+	      ($boardname).brdndocs 版面文章数
+	      ($boardname).brd.weight 版面文章权值
+       reclog/ 日志
+       	       debug
+	       error
+	       query.log
+       src/ 代码
+       	    src/  .c 源文件
+	    include/ .h 头文件
+	    util/    一些小工具或函数
+       data/ 数据文件(待索引的文件)
+       	   0Announce/ 精华区文章
+	   boards/    版面文章
+       cache/ 文章缓存,分版面存储
+       www/
+	   htdocs/
+		document root
+	   cgi-bin/
+		cgi script directory
+	
