@@ -1,0 +1,65 @@
+{
+  "id": "sysu-cs-frgg-search",
+  "update_time": "2026-05-13T11:38:53+08:00",
+  "update_executor": "ltaoist",
+  "commit_sha": "b54259ecf16ff1edc8ec53f3c59fc20a23a0f540",
+  "names": [
+    "frgg",
+    "逸仙时空 BBS 搜索引擎"
+  ],
+  "formal_names": [
+    "frgg",
+    "frgg搜索引擎",
+    "逸仙时空 BBS 搜索引擎",
+    "逸仙时空 BBS 搜索",
+    "逸仙时空 搜索引擎"
+  ],
+  "planning": "逸仙时空BBS作为校内的信息交流平台,同学们的网上家园,但系统却没有一个支持对文章进行全文检索的功能,本着整合信息资源,方便用户查找信息的目的出发,我们致力打造一个实用的,可扩展的针对逸仙时空 BBS 的小型搜索引擎。\n\nBBS是英文Bullitin Board System的首字母简写,意译即为公告牌系统。一般地它以纯文字的方式出现,工作界面也像最古老的终端,就是一行行的字。\n\nBBS是有不同的版面组成的,版也就是讨论区,每个版有不同的讨论主题。逸仙时空大约有 200 个讨论区,每个版面文章数目大约在几千到几万篇不等,大小为30-50M。版面文章更新较快,一个版面在一天内新发表文章可达上千,版主整理版面时,一些文章会被删除。\n\nBBS 中除了版面文章以外,每个版面都对应着一个精华区,顾名思义,精华区里保存着本版的精华文章,这是由每个版面的版主从版面文章中整理收录进来的。\n\n几点改进的方向:\n\n1. 设计开发在 telnet 端的查询文章的功能,方便 telnet 登陆用户。\n\n2. 可以针对文章的元信息建立索引,BBS 文章元信息格式固定(如作者,发表时间),提供高级个性化的搜索。\n\n3. 改进中文分词,自动摘要的效果。对于分词,可以考虑给每个版面使用一个额外的词典,比如在电影版,可以使用一个电影名大全的词典。\n\n4. 另外,对搜索结果进行缓存也是搜索引擎很重要的一个部分,特别是当访问量很大的时候。\n\n5. 对快照文件进行压缩存储,节省空间。\n\n## 参考文献\n\n[1] V. Bush,“As We May Think”,Atlantic Monthly,vol. 176,pp. 101–108,1945\n[2] 文本信息检索,http://zh.wikipedia.org/wiki/文本信息检索\n[3] The first search engine, Archie, http:// www.isrl.illinois.edu/~chip/ projects/\ntimeline/1990archie.htm\n[4] Web_Wanderer, http://en.wikipedia.org/wiki/World_Wide_Web_Wanderer\n[5] W3 SEARCH ENGINES,http://vlib.iue.it/history/search/\n[6] David Eichmann, The Repository Based Software Engineering Program,\nFifth Systems Reengineering Technology Workshop, Monterey, CA, Feb. 7-9, 1995\n[7] 梁斌,走进搜索引擎,电子工业出版社,2007\n[8] kxn,重负载 Telnet BBS 系统优化和维护经验谈\n[9] Unix time, http://en.wikipedia.org/wiki/Unix_time\n[10] Backus–Naur Form,http://en.wikipedia.org/wiki/Backus–Naur_form\n[11] 关于 frgg, http://frgg.3322.org/about.html\n[12] Brian W. Kernighan,Dennis M. Ritchie,The C Programming Language,Prentice\nHall,Inc.,1988.\n[13] Python, http://www.python.org\n[14] KISS principle, http://en.wikipedia.org/wiki/KISS_principle\n[15] Diff, http://en.wikipedia.org/wiki/Diff\n[16] libcurl - the multiprotocol file transfer library,http://curl.haxx.se/libcurl/\n[17] w3c,HTML 4.01 Specification,http://www.w3.org/TR/html401/\n[18] 逸仙时空,http://bbs.sysu.edu.cn/\n[19] Page, Lawrence; Brin, Sergey; Motwani, Rajeev and Winograd, Terry,\nThe PageRank citation ranking: Bringing order to the Web, 1999\n[20] ANSI escape code,http://en.wikipedia.org/wiki/ANSI_escape_code\n[21] ANSI Escape sequences,http://ascii-table.com/ansi-escape-sequences.php\n[22] The Porter Stemming Algorithm, http://tartarus.org/~martin/PorterStemmer/\n[23] Christopher D. Manning,Prabhakar Raghavan and Hinrich Schütze,Introduction to Information Retrieval,Cambridge University Press. 2008\n[24] 吴军,谈谈中文分词-----统计语言模型在中文处理中的一个应用, http://www.googlechinablog.com/2006/04/blog-post_10.html\n[25] 吴军,统计语言模型,http://googlechinablog.com/2006/04/blog-post.html\n[26] Markov Chain, http://en.wikipedia.org/wiki/Markov_chain\n[27] Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Introduction to Algorithms, MIT Press, 2001\n[28] pluskid,pymmseg-cpp, http://code.google.com/p/pymmseg-cpp/RMMSeg\n[29] Chih-Hao Tsai,MMSEG: A Word Identification System for Mandarin Chinese Text Based on Two Variants of the Maximum Matching Algorithm, http://technology.chtsai.org/mmseg/\n[30] Chen,K. J.,& Liu,S. H. , Word identification for Mandarin Chinese sentences,Nantes: COLING-92.\n[31] Justin Zobel,Inverted Files for Text Search Engines,2006\n[32] Berkeley DB, http://www.oracle.com/database/berkeley-db/index.html\n[33] Elias gamma coding, http://en.wikipedia.org/wiki/Elias_gamma_coding\n[34] DFS, http://en.wikipedia.org/wiki/Depth-first_search\n[35] Google,http://www.google.com\n[36] 百度,http://www.baidu.com\n[37] 有道,http://www.youdao.com\n[38] The Common Gateway Interface (CGI) Version 1.1,rfc3875\n[39] 闫宏飞,测试集(Test Collection),2004\n\n2009年4月",
+  "description": "# 开发者freestyler在毕业论文中的表述\n\n论文完成于2009年4月。\n\n这个搜索引擎命名为 frgg。frgg 现在运行在一台校内的机器上(http://frgg.3322.org),每天给成百上千的用户提供查询服务,如图 2-1 所示。frgg 是在 GNU/Linux 环境下用 C 语言[12]开发完成的,部分自动管理脚本是用 Python 语言[13]编写,整个系统能运行在包括 GNU/Linux,FreeBSD 等类 Unix 操作系统之上。\n\nfrgg 的设计理念和原则是:\n1. 保持简单(Keep It Simple, Stupid)\n2. 分而治之(Divide and Conquer)\n\n整个系统的工作流程。首先是后端离线完成构造索引部分,为用户搜索做好准备。构造好索引后,就可以为用户提供查询服务了。\n\n由于frgg是一个站内搜索,所以下载这一环节是不需要的。下载系统是搜索引擎大厦的基础,搜索的数据均来自下载系统的工作。不过为了能使frgg能在 BBS 服务器以外的机器上提供服务,还是实现了简单的抓取文章功能。\n\n第2个系统是分析系统,分析系统主要的工作包括信息抽取,网页消重,中文分词和 PageRank 计算等。\n\n第3个系统称为\"索引系统\"。该系统就好像搜索引擎的数据大本营,在这里存储并索引了大量的文档。\n\n第4个系统成为\"查询系统\",查询系统直接面对用户,在接收用户查询请求后,通过检索,排序和摘要提取等计算,将计算结果组织成搜索结果页面返回给用户。\n\n该系统还考虑了访问控制列表、CGI程序、日志系统等。\n\n在建立索引效率方面,开发者在一台工作中的普通 PC 机(AMD Sempron(tm)Processor LE-1200,900M内存,硬盘WD400BD)上,分别对三个讨论区CS(计算机系),Programming(编程技巧),Job(人才市场)的版面文章进行索引测试,这三个版面的文章数分别为 3623,4881,7624,大小分别是 27M,27M,48M,花费时间分别是 30.2秒,14.8,58.8 秒,建立的索引文件大小分别是 7.8M,5.6M,13M,平均索引文件大小是文章集合的 25%,无论从时间上效率上还是空间占用上,都是完全可接受的。\n\n在查询效率方面,frgg计算了从获取用户查询到返回结果的时间,并把它显示在结果页面,一般是在0.2秒左右,可以说是查询结果被立即返回了,基本满足了用户的需求。\n\n在查询效果方面,由于每个人对搜索的需求不同,即使是同一条查询,也会对查询结果有不同的偏好,因此不好简单得从返回的结果来看搜索的效果,开发者可以分析查询日志,如果用户点击的搜索结果越靠前,没有翻页,说明效果越好,反之,若用户需要不断修改查询词,或者翻下一页,说明搜索效果不理想。从查询日志来看,大部分查询的效果是不错的。另外,从用户在逸仙时空的回帖来看,普遍对 frgg 的评价反应是 cool! 看来大家对查询效果还是感到满意的。\n\n开发者设计实现了这个搜索引擎,为逸仙时空提供了一个全文检索的功能,达到了整合信息资源,方便用户获取信息的目的,frgg 每天接收了成百上千的 BBS文章查询请求。\n\n# 回忆frgg的运营（ltaoist）\n\n2011~2015年间，因为运营人员的接续问题，frgg实际上为难得到校内学生的专门运维和管理。有一天突然frgg已经不能正常运行，可能是运营部署的问题。其后一直没有使得frgg恢复服务，在argo推出服务后，frgg事实上也不再得到校内运维的支持了。",
+  "formal_description": "   逸仙时空bbs作为SYSU这一高水平学府的重要信息交流平台, 但系统竟然还没有一个强大的搜索功能, 这与全国重点大学的的地位十分不符。\n\n   于是frgg本着整合信息资源, 方便站友查找文章的宗旨, 把``逸仙时空BBS搜索引擎设计与实现''作为本科毕业设计的题目，最终搞出了这个搜索引擎。\n\n   `frgg'的来历：作者在逸仙时空的ID为freestyler，有人简称为fr，后来有人[1]开玩笑戏称为frgg，本人觉得这个昵称还算亲切，就拿来命名这个东东了。\n\n   不过，本人此郑重声明：frgg与网络名人frjj木有一点关系. 谢谢.\n\n\n\n\n\n参考文献\n[1] 在 stupidmxx (傻の小小，76KG男) 大作中提到：\n\n:    作为frgg的始作俑者，我深感荣幸啊\n:    记得是在某个讨论id缩写的帖子里提出的，口黑口黑\n",
+  "available_times": [
+    [
+      "2009年左右",
+      "（不明）"
+    ]
+  ],
+  "documentation": "有《逸仙时空 BBS 搜索引擎设计与实现》全文。这是一篇中山大学本科生的毕业设计论文。\n\n有相关的演示文稿一份。",
+  "milestones": [],
+  "keywords": [
+    "搜索引擎",
+    "整合信息资源",
+    "搜索文章",
+    "下载系统",
+    "分析系统",
+    "索引系统",
+    "查询系统",
+    "访问控制表",
+    "cgi程序",
+    "解析 HTML",
+    "抓取文章",
+    "增量抓取",
+    "文本过滤",
+    "分词",
+    "倒排文件",
+    "索引算法",
+    "索引压缩",
+    "索引维护",
+    "搜索引擎快速",
+    "测试集"
+  ],
+  "resources": [
+    "逸仙时空BBS搜索引擎设计与实现\n该搜索引擎的开发者及实现者的论文，主题为该搜索引擎。"
+  ],
+  "influencers": [
+    "freestyler\nfreestyler为该搜索引擎的设计者和开发者。作为本科设计，指导老师为张治国副教授。"
+  ],
+  "extras": [
+    "提到了stupidmxx\n在about文件中，提到了stupidmxx，他可能为另一个知道该搜索引擎的相关故事的人。"
+  ],
+  "disciplines": [
+    "搜索引擎",
+    "计算机科学与技术",
+    "信息科学与技术"
+  ],
+  "subsequents": []
+}
